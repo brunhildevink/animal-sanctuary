@@ -1,0 +1,177 @@
+[
+  { "id": 1, "nickname": "Fluffy", "kind": "cat", "personality": "friendly" },
+  { "id": 2, "nickname": "Buddy", "kind": "dog", "personality": "active" },
+  { "id": 3, "nickname": "Whiskers", "kind": "cat", "personality": "shy" },
+  { "id": 4, "nickname": "Rocky", "kind": "dog", "personality": "calm" },
+  {
+    "id": 5,
+    "nickname": "Snowball",
+    "kind": "rabbit",
+    "personality": "playful"
+  },
+  { "id": 6, "nickname": "Mittens", "kind": "cat", "personality": "curious" },
+  { "id": 7, "nickname": "Max", "kind": "dog", "personality": "energetic" },
+  { "id": 8, "nickname": "Cleo", "kind": "cat", "personality": "reserved" },
+  { "id": 9, "nickname": "Rusty", "kind": "dog", "personality": "friendly" },
+  { "id": 10, "nickname": "Hopper", "kind": "rabbit", "personality": "shy" },
+  { "id": 11, "nickname": "Sunny", "kind": "parrot", "personality": "chatty" },
+  { "id": 12, "nickname": "Milo", "kind": "cat", "personality": "independent" },
+  { "id": 13, "nickname": "Bella", "kind": "dog", "personality": "loyal" },
+  {
+    "id": 14,
+    "nickname": "Thumper",
+    "kind": "rabbit",
+    "personality": "cuddly"
+  },
+  { "id": 15, "nickname": "Riley", "kind": "dog", "personality": "playful" },
+  { "id": 16, "nickname": "Olive", "kind": "parrot", "personality": "mimic" },
+  { "id": 17, "nickname": "Leo", "kind": "cat", "personality": "sociable" },
+  { "id": 18, "nickname": "Rocky", "kind": "rabbit", "personality": "gentle" },
+  { "id": 19, "nickname": "Max", "kind": "dog", "personality": "energetic" },
+  { "id": 20, "nickname": "Luna", "kind": "cat", "personality": "graceful" },
+  { "id": 21, "nickname": "Simba", "kind": "lion", "personality": "majestic" },
+  { "id": 22, "nickname": "Lola", "kind": "parrot", "personality": "colorful" },
+  { "id": 23, "nickname": "Zeus", "kind": "dog", "personality": "dominant" },
+  { "id": 24, "nickname": "Cotton", "kind": "rabbit", "personality": "soft" },
+  {
+    "id": 25,
+    "nickname": "Rusty",
+    "kind": "dog",
+    "personality": "adventurous"
+  },
+  {
+    "id": 26,
+    "nickname": "Whisper",
+    "kind": "parrot",
+    "personality": "gentle"
+  },
+  { "id": 27, "nickname": "Misty", "kind": "cat", "personality": "mysterious" },
+  { "id": 28, "nickname": "Snowy", "kind": "rabbit", "personality": "playful" },
+  { "id": 29, "nickname": "Rocket", "kind": "dog", "personality": "energetic" },
+  {
+    "id": 30,
+    "nickname": "Shadow",
+    "kind": "cat",
+    "personality": "independent"
+  },
+  { "id": 31, "nickname": "Tiger", "kind": "lion", "personality": "fierce" },
+  {
+    "id": 32,
+    "nickname": "Kiwi",
+    "kind": "parrot",
+    "personality": "talkative"
+  },
+  { "id": 33, "nickname": "Bolt", "kind": "dog", "personality": "fast" },
+  { "id": 34, "nickname": "Coco", "kind": "rabbit", "personality": "cute" },
+  { "id": 35, "nickname": "Luna", "kind": "dog", "personality": "lively" },
+  { "id": 36, "nickname": "Sunny", "kind": "parrot", "personality": "sunny" },
+  {
+    "id": 37,
+    "nickname": "Midnight",
+    "kind": "cat",
+    "personality": "mysterious"
+  },
+  {
+    "id": 38,
+    "nickname": "Snowflake",
+    "kind": "rabbit",
+    "personality": "white"
+  },
+  { "id": 39, "nickname": "Thunder", "kind": "dog", "personality": "powerful" },
+  { "id": 40, "nickname": "Whisker", "kind": "cat", "personality": "whiskery" },
+  { "id": 41, "nickname": "Ziggy", "kind": "parrot", "personality": "zigzag" },
+  { "id": 42, "nickname": "Olive", "kind": "rabbit", "personality": "green" },
+  { "id": 43, "nickname": "Rover", "kind": "dog", "personality": "roving" },
+  { "id": 44, "nickname": "Mittens", "kind": "cat", "personality": "mittened" },
+  {
+    "id": 45,
+    "nickname": "Mango",
+    "kind": "parrot",
+    "personality": "tropical"
+  },
+  {
+    "id": 46,
+    "nickname": "Thumper",
+    "kind": "rabbit",
+    "personality": "thumping"
+  },
+  { "id": 47, "nickname": "Rocket", "kind": "dog", "personality": "rocketing" },
+  { "id": 48, "nickname": "Shadow", "kind": "cat", "personality": "shadowy" },
+  {
+    "id": 49,
+    "nickname": "Bubbles",
+    "kind": "parrot",
+    "personality": "bubbly"
+  },
+  { "id": 50, "nickname": "Fluff", "kind": "rabbit", "personality": "fluffy" },
+  { "id": 51, "nickname": "Simba", "kind": "lion", "personality": "majestic" },
+  { "id": 52, "nickname": "Lola", "kind": "parrot", "personality": "colorful" },
+  { "id": 53, "nickname": "Zeus", "kind": "dog", "personality": "dominant" },
+  { "id": 54, "nickname": "Coco", "kind": "rabbit", "personality": "cute" },
+  { "id": 55, "nickname": "Luna", "kind": "dog", "personality": "lively" },
+  { "id": 56, "nickname": "Sunny", "kind": "parrot", "personality": "sunny" },
+  {
+    "id": 57,
+    "nickname": "Midnight",
+    "kind": "cat",
+    "personality": "mysterious"
+  },
+  {
+    "id": 58,
+    "nickname": "Snowflake",
+    "kind": "rabbit",
+    "personality": "white"
+  },
+  { "id": 59, "nickname": "Thunder", "kind": "dog", "personality": "powerful" },
+  { "id": 60, "nickname": "Whisker", "kind": "cat", "personality": "whiskery" },
+  { "id": 61, "nickname": "Ziggy", "kind": "parrot", "personality": "zigzag" },
+  { "id": 62, "nickname": "Olive", "kind": "rabbit", "personality": "green" },
+  { "id": 63, "nickname": "Rover", "kind": "dog", "personality": "roving" },
+  { "id": 64, "nickname": "Mittens", "kind": "cat", "personality": "mittened" },
+  {
+    "id": 65,
+    "nickname": "Mango",
+    "kind": "parrot",
+    "personality": "tropical"
+  },
+  {
+    "id": 66,
+    "nickname": "Thumper",
+    "kind": "rabbit",
+    "personality": "thumping"
+  },
+  { "id": 67, "nickname": "Rocket", "kind": "dog", "personality": "rocketing" },
+  { "id": 68, "nickname": "Shadow", "kind": "cat", "personality": "shadowy" },
+  {
+    "id": 69,
+    "nickname": "Bubbles",
+    "kind": "parrot",
+    "personality": "bubbly"
+  },
+  { "id": 70, "nickname": "Fluff", "kind": "rabbit", "personality": "fluffy" },
+  { "id": 71, "nickname": "Leo", "kind": "lion", "personality": "regal" },
+  { "id": 72, "nickname": "Pepper", "kind": "parrot", "personality": "spicy" },
+  { "id": 73, "nickname": "Rusty", "kind": "dog", "personality": "rustic" },
+  {
+    "id": 74,
+    "nickname": "Cinnamon",
+    "kind": "rabbit",
+    "personality": "spiced"
+  },
+  { "id": 75, "nickname": "Oreo", "kind": "dog", "personality": "sweet" },
+  { "id": 76, "nickname": "Smokey", "kind": "cat", "personality": "smoky" },
+  { "id": 77, "nickname": "Gizmo", "kind": "parrot", "personality": "techy" },
+  {
+    "id": 78,
+    "nickname": "Charlie",
+    "kind": "rabbit",
+    "personality": "charming"
+  },
+  {
+    "id": 79,
+    "nickname": "Bentley",
+    "kind": "dog",
+    "personality": "luxurious"
+  },
+  { "id": 80, "nickname": "Misty", "kind": "cat", "personality": "misty" }
+]
