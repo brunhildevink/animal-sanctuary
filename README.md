@@ -17,7 +17,7 @@ Inside the utils folder, data transformation takes place. The getMatchingAnimals
 - If the adopter has kids and the animal's personality is "unsociable," the score decreases.
 - The returned score is encapsulated in a new object containing both the adopter and the score. If there is no match (i.e., length is zero), the process skips to the next iteration.
 
-## Sorting Method:
+## Sorting Method
 
 The sorting method evaluates the scores, giving priority to higher scores. In case of tied scores, the registration date is considered. The adopter with the longest registration date is selected. Finally, the matched adopter is removed from the list to prevent assigning the adoptee to multiple animals.
 
