@@ -1,28 +1,50 @@
-import { Animal } from '@/types'
+import { getAdopters } from '@/api/adopter'
 import { getAnimals } from '@/api/animals'
+import { getMatchingAnimals } from '@/utils/getMatchingAnimals'
 
 const Page = async () => {
+  const adopters = await getAdopters()
   const animals = await getAnimals()
+  const matches = getMatchingAnimals({ animals, adopters })
 
   return (
     <div className="container mx-auto my-8">
-      <h1 className="text-3xl mb-4">Animal List</h1>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {animals.map(({ id, nickname, personality, kind }: Animal) => (
-          <li key={id} className="card bg-base-100 shadow-md p-4">
-            <div className="card-body">
-              <h2 className="card-title">{nickname}</h2>
-              <div className="flex justify-start gap-2">
-                <span className="badge badge-sm badge-accent">{kind}</span>
-                <span className="badge badge-sm badge-ghost">
-                  {personality}
-                </span>
+      <h1 className="text-3xl mb-4">Adoption matches</h1>
+      <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12">
+        {matches.map(({ adopter, animal, score }) => (
+          <li key={animal.id} className="card bg-base-100 shadow-md p-4">
+            <div className="card-body grid grid-cols-2">
+              <div className="flex flex-col gap-2">
+                <h2 className="card-title">{animal.nickname}</h2>
+                <div className="flex justify-start gap-2">
+                  <span className="badge badge-sm badge-accent">
+                    {animal.kind}
+                  </span>
+                  <span className="badge badge-sm badge-ghost">
+                    {animal.personality}
+                  </span>
+                </div>
               </div>
-              <div className="card-actions my-4">
-                <button type="button" className="btn btn-block btn-secondary">
-                  Adopt me!
-                </button>
-              </div>
+
+              {adopter ? (
+                <div className="flex flex-col gap-4">
+                  <h2 className="card-title">Matching with {adopter.name}</h2>
+                  <div
+                    className="radial-progress text-primary"
+                    style={
+                      {
+                        '--value': `${score}`,
+                        '--size': '4rem',
+                      } as React.CSSProperties
+                    }
+                    role="progressbar"
+                  >
+                    <b>{score}</b>
+                  </div>
+                </div>
+              ) : (
+                <h3 className="">No match yet...</h3>
+              )}
             </div>
           </li>
         ))}
