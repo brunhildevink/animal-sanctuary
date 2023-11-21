@@ -21,7 +21,7 @@ Inside the utils folder, data transformation takes place. The getMatchingAnimals
 
 The sorting method evaluates the scores, giving priority to higher scores. In case of tied scores, the registration date is considered. The adopter with the longest registration date is selected. Finally, the matched adopter is removed from the list to prevent assigning the adoptee to multiple animals.
 
-Considerations for Future Improvement:
+Considerations for Future Improvement
 
 Given the time constraints, the initial plan to use useContext for better state management was reconsidered. Future improvements could involve implementing a more centralized state management system for better data flow and persistence.
 
