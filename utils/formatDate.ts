@@ -9,3 +9,9 @@ export const formatDate = (date: Date): string => {
 
   return `${year}-${formattedMonth}-${formattedDay}`
 }
+
+export const calculateAge = (startDate: Date) => {
+  const ageDifMs = Date.now() - startDate.getTime()
+  const ageDate = new Date(ageDifMs)
+  return Math.abs(ageDate.getUTCFullYear() - 1970)
+}

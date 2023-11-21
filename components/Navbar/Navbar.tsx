@@ -14,7 +14,7 @@ export const Navbar = () => {
           <li key={route}>
             <Link
               href={`/${route}`}
-              className={`btn-ghost btn normal-case text-xl ${
+              className={`btn btn normal-case text-xl ${
                 pathname === `/${route}` ? 'btn-active' : ''
               }`}
               title={route === '' ? 'home' : route}

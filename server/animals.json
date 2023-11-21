@@ -1,38 +1,212 @@
 [
-  { "id": 1, "nickname": "Fluffy", "kind": "cat", "personality": "friendly" },
-  { "id": 2, "nickname": "Buddy", "kind": "dog", "personality": "active" },
-  { "id": 3, "nickname": "Whiskers", "kind": "cat", "personality": "shy" },
-  { "id": 4, "nickname": "Rocky", "kind": "dog", "personality": "calm" },
+  {
+    "id": 1,
+    "nickname": "Fluffy",
+    "kind": "cat",
+    "personality": "friendly",
+    "birthDate": "2022-01-01",
+    "dateOfShelterEntry": "2023-01-15",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 2,
+    "nickname": "Buddy",
+    "kind": "dog",
+    "personality": "active",
+    "birthDate": "2020-03-12",
+    "dateOfShelterEntry": "2022-02-20",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 3,
+    "nickname": "Whiskers",
+    "kind": "cat",
+    "personality": "shy",
+    "birthDate": "2021-06-05",
+    "dateOfShelterEntry": "2022-11-10",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 4,
+    "nickname": "Rocky",
+    "kind": "dog",
+    "personality": "calm",
+    "birthDate": "2019-09-08",
+    "dateOfShelterEntry": "2021-04-25",
+    "allergies": [],
+    "illnesses": []
+  },
   {
     "id": 5,
     "nickname": "Snowball",
     "kind": "rabbit",
-    "personality": "playful"
+    "personality": "playful",
+    "birthDate": "2020-12-20",
+    "dateOfShelterEntry": "2022-10-05",
+    "allergies": [],
+    "illnesses": []
   },
-  { "id": 6, "nickname": "Mittens", "kind": "cat", "personality": "curious" },
-  { "id": 7, "nickname": "Max", "kind": "dog", "personality": "energetic" },
-  { "id": 8, "nickname": "Cleo", "kind": "cat", "personality": "reserved" },
-  { "id": 9, "nickname": "Rusty", "kind": "dog", "personality": "friendly" },
-  { "id": 10, "nickname": "Hopper", "kind": "rabbit", "personality": "shy" },
-  { "id": 11, "nickname": "Sunny", "kind": "parrot", "personality": "chatty" },
-  { "id": 12, "nickname": "Milo", "kind": "cat", "personality": "independent" },
-  { "id": 13, "nickname": "Bella", "kind": "dog", "personality": "loyal" },
+  {
+    "id": 6,
+    "nickname": "Mittens",
+    "kind": "cat",
+    "personality": "curious",
+    "birthDate": "2021-02-14",
+    "dateOfShelterEntry": "2023-01-02",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 7,
+    "nickname": "Max",
+    "kind": "dog",
+    "personality": "energetic",
+    "birthDate": "2020-05-19",
+    "dateOfShelterEntry": "2022-08-15",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 8,
+    "nickname": "Cleo",
+    "kind": "cat",
+    "personality": "reserved",
+    "birthDate": "2019-11-30",
+    "dateOfShelterEntry": "2021-09-03",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 9,
+    "nickname": "Rusty",
+    "kind": "dog",
+    "personality": "friendly",
+    "birthDate": "2021-08-22",
+    "dateOfShelterEntry": "2022-07-10",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 10,
+    "nickname": "Hopper",
+    "kind": "rabbit",
+    "personality": "shy",
+    "birthDate": "2020-04-15",
+    "dateOfShelterEntry": "2021-12-28",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 11,
+    "nickname": "Sunny",
+    "kind": "parrot",
+    "personality": "chatty",
+    "birthDate": "2019-07-25",
+    "dateOfShelterEntry": "2021-02-18",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 12,
+    "nickname": "Milo",
+    "kind": "cat",
+    "personality": "independent",
+    "birthDate": "2020-10-10",
+    "dateOfShelterEntry": "2022-04-30",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 13,
+    "nickname": "Bella",
+    "kind": "dog",
+    "personality": "loyal",
+    "birthDate": "2019-12-12",
+    "dateOfShelterEntry": "2021-07-20",
+    "allergies": [],
+    "illnesses": []
+  },
   {
     "id": 14,
     "nickname": "Thumper",
     "kind": "rabbit",
-    "personality": "cuddly"
+    "personality": "cuddly",
+    "birthDate": "2021-03-28",
+    "dateOfShelterEntry": "2022-09-15",
+    "allergies": [],
+    "illnesses": []
   },
-  { "id": 15, "nickname": "Riley", "kind": "dog", "personality": "playful" },
-  { "id": 16, "nickname": "Olive", "kind": "parrot", "personality": "mimic" },
-  { "id": 17, "nickname": "Leo", "kind": "cat", "personality": "sociable" },
-  { "id": 18, "nickname": "Rocky", "kind": "rabbit", "personality": "gentle" },
-  { "id": 19, "nickname": "Max", "kind": "dog", "personality": "energetic" },
-  { "id": 20, "nickname": "Jaimy", "kind": "dog", "personality": "unsociable" },
+  {
+    "id": 15,
+    "nickname": "Riley",
+    "kind": "dog",
+    "personality": "playful",
+    "birthDate": "2020-07-10",
+    "dateOfShelterEntry": "2022-01-05",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 16,
+    "nickname": "Olive",
+    "kind": "parrot",
+    "personality": "mimic",
+    "birthDate": "2019-10-05",
+    "dateOfShelterEntry": "2021-06-30",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 17,
+    "nickname": "Leo",
+    "kind": "cat",
+    "personality": "sociable",
+    "birthDate": "2020-01-15",
+    "dateOfShelterEntry": "2021-10-20",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 18,
+    "nickname": "Rocky",
+    "kind": "rabbit",
+    "personality": "gentle",
+    "birthDate": "2021-05-02",
+    "dateOfShelterEntry": "2022-11-28",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 19,
+    "nickname": "Max",
+    "kind": "dog",
+    "personality": "energetic",
+    "birthDate": "2019-08-08",
+    "dateOfShelterEntry": "2021-03-15",
+    "allergies": [],
+    "illnesses": []
+  },
+  {
+    "id": 20,
+    "nickname": "Jaimy",
+    "kind": "dog",
+    "personality": "unsociable",
+    "birthDate": "2020-02-18",
+    "dateOfShelterEntry": "2021-08-10",
+    "allergies": [],
+    "illnesses": []
+  },
   {
     "id": 21,
-    "nickname": "asd",
+    "nickname": "blub",
     "kind": "fish",
-    "personality": "unsociable"
+    "personality": "unsociable",
+    "birthDate": "2022-04-10",
+    "dateOfShelterEntry": "2023-02-05",
+    "allergies": ["water"],
+    "illnesses": []
   }
 ]

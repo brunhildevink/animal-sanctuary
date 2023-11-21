@@ -1,6 +1,7 @@
 import { getAdopters } from '@/api/adopter'
 import { getAnimals } from '@/api/animals'
 import { getMatchingAnimals } from '@/utils/getMatchingAnimals'
+import { formatDate, calculateAge } from '@/utils/formatDate'
 
 const Page = async () => {
   const adopters = await getAdopters()
@@ -16,13 +17,31 @@ const Page = async () => {
             <div className="card-body grid grid-cols-2">
               <div className="flex flex-col gap-2">
                 <h2 className="card-title">{animal.nickname}</h2>
-                <div className="flex justify-start gap-2">
+                <div className="flex flex-wrap gap-2">
                   <span className="badge badge-sm badge-accent">
                     {animal.kind}
                   </span>
                   <span className="badge badge-sm badge-ghost">
                     {animal.personality}
                   </span>
+                  <span className="badge badge-sm badge-ghost">
+                    entry: {formatDate(animal.dateOfShelterEntry)}
+                  </span>
+                  <span className="badge badge-sm badge-ghost">
+                    age:{' '}
+                    {animal.birthDate &&
+                      calculateAge(new Date(animal.birthDate))}
+                  </span>
+                  {animal.illnesses.map((illness) => (
+                    <span key={illness} className="badge badge-sm badge-ghost">
+                      Illness: {illness}
+                    </span>
+                  ))}
+                  {animal.allergies.map((allergy) => (
+                    <span key={allergy} className="badge badge-sm badge-ghost">
+                      Allergy: {allergy}
+                    </span>
+                  ))}
                 </div>
               </div>
 
