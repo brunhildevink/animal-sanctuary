@@ -1,0 +1,1 @@
+export { NewAnimalEntries } from './NewAnimalEntries'

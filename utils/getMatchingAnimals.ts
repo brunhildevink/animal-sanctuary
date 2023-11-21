@@ -10,16 +10,16 @@ export const getMatchingAnimals = ({
   adopters: Adopter[]
   animals: Animal[]
 }): Match[] => {
-  const matches: Match[] = []
+  const adoptersList = [...adopters]
 
-  animals.forEach((animal) => {
-    const adopterScores = adopters.map((adopter) => ({
+  return animals.flatMap((animal) => {
+    const adopterScores = adoptersList.map((adopter) => ({
       adopter,
       score: calculateMatchScore(animal, adopter),
     }))
 
     if (adopterScores.length === 0) {
-      return
+      return []
     }
 
     adopterScores.sort(
@@ -28,16 +28,19 @@ export const getMatchingAnimals = ({
         Number(b.adopter.registrationDate) - Number(a.adopter.registrationDate)
     )
 
-    const bestMatch = adopterScores[0] // The best match is now the first element
+    const bestMatch = adopterScores[0]
 
-    if (bestMatch.score >= MATCH_SCORE_THRESHOLD) {
-      matches.push({
-        animal,
-        adopter: bestMatch.adopter,
-        score: bestMatch.score,
-      })
+    if (bestMatch.score < MATCH_SCORE_THRESHOLD) {
+      return []
     }
-  })
 
-  return matches
+    const bestMatchIndex = adoptersList.findIndex(
+      (adopter) => adopter.id === bestMatch.adopter?.id
+    )
+    if (bestMatchIndex !== -1) {
+      adoptersList.splice(bestMatchIndex, 1)
+    }
+
+    return [{ animal, adopter: bestMatch.adopter, score: bestMatch.score }]
+  })
 }

@@ -1,4 +1,6 @@
-export async function getAdopters() {
+import { Adopter } from '@/types'
+
+export async function getAdopters(): Promise<Adopter[]> {
   const res = await fetch('http://localhost:3001/api/adopters', {
     next: {
       revalidate: 300,
