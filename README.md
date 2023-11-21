@@ -8,6 +8,8 @@ The Animal Sanctuary App is designed to facilitate the adoption process by match
 
 Initially, the idea was to implement a server-side application with dummy database data. However, I later realized that a completely server-side application couldn't access the file system. Therefore the decision was made to create a client-side component for adding new animals. Although new cards render successfully, they don't persist in the DOM after rerouting and unfortunately no matchmaking.
 
+I am aware of the multiple instances of the card component. This is partly due to the above issue, hence why it's reoccurance in so many different places. If I had done the above differently, I would have placed the list items in its own component, but didn't due to time constraints.
+
 ## Data Transformation in Utils
 
 Inside the utils folder, data transformation takes place. The getMatchingAnimals function is responsible for matchmaking and calls calculateMatchScore. This function considers several factors for matchmakings:
