@@ -11,6 +11,7 @@ const Page = async () => {
     <div>
       <h1 className="text-3xl mb-4">All animals</h1>
       <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12">
+        <NewAnimalEntries />
         {animals.map(({ id, nickname, kind, personality }) => (
           <li key={id} className="card bg-neutral shadow-md">
             <div className="card-body">
@@ -26,8 +27,6 @@ const Page = async () => {
             </div>
           </li>
         ))}
-
-        <NewAnimalEntries />
       </ul>
 
       <h1 className="text-3xl mb-4 mt-12">All adopters</h1>

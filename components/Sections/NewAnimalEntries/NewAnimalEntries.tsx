@@ -13,6 +13,8 @@ export const NewAnimalEntries = () => {
 
   return (
     <>
+      <Form onSubmit={handleUpdateAnimals} />
+
       {animals.map(({ id, nickname, kind, personality }) => (
         <li key={id} className="card bg-neutral shadow-md">
           <div className="card-body">
@@ -28,7 +30,6 @@ export const NewAnimalEntries = () => {
           </div>
         </li>
       ))}
-      <Form onSubmit={handleUpdateAnimals} />
     </>
   )
 }
